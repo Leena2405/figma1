@@ -1,0 +1,25 @@
+.element {
+  font-size: 20px;
+  &.hasColor {
+    &-orange {
+      color:#FF4815;
+    }
+    &-black {
+      color: #14212B;
+    }
+  }
+  &.hasWeight {
+    &-400 {
+      font-weight: 400;
+    }
+    &-500 {
+      font-weight: 500;
+    }
+    &-600 {
+      font-weight: 600;
+    }
+  }
+}
+//zadanie domowe-zrobic dokladnie to samo z fontweight, pozniej przygotowac sobie ta strone -czyli wykorzystac w app- sprobowac stworzyc sobie sekcje //
+//przeniesc nazwy kolorow jako zmienne - css variables//
+//osobny plik color.module.scss//

@@ -1,0 +1,23 @@
+.element {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.services {
+  margin-bottom: 7px;
+}
+.provideServices {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+.variations {
+  max-width: 731px;
+  text-align: center;
+}
+
